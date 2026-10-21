@@ -1,0 +1,629 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.header-top{
+    position: relative;
+    display: flex;justify-content: space-between;background-color: black;
+    color: white;padding-bottom: 40px;position: relative;
+}
+.addresse{
+    position: absolute;top: 9px; left: 39px ;font-style: italic;font-size: 0.85rem;
+}
+.horaire{
+    position: absolute;top: 9px;left: 470px;font-style: italic;font-size: 0.85rem;
+}
+.num{
+    position: absolute;top: 9px;right: 60px;font-style: italic;font-size: 0.85rem;
+}
+.header-foot{
+    background-color: rgb(246, 237, 225);padding-top: 8px;padding-bottom: 10px;
+    position: sticky;z-index: 100;top: 0;
+}
+
+.sb{
+    width: 50px;margin-left: 8px;
+}
+.restname{
+    font-size: 1.3rem;letter-spacing: 3px;margin-left: 9px;
+}
+.logolink{
+    text-decoration: none;color: black;display: flex;
+}
+.resttype{
+    font-size: 0.7rem;letter-spacing: 2px;margin-top: 2px;
+    text-transform: uppercase;margin-left: 39px;
+}
+.navb{
+    display: flex;justify-content: space-between;
+}
+.ul1{
+    display: flex;list-style-type: none;margin-left: 100px;
+    margin-top: 12px;
+}
+.navlink{
+    margin-left: 30px;text-transform: uppercase;
+    
+}
+.a-links{
+    text-decoration: none;color: black;
+}
+.reser-head{
+    margin-right: 80px;border: 2px solid transparent;
+    background-color: rgb(205, 156, 104);padding-right: 15px;
+    padding-left: 15px;font-size: 1rem;padding-top: 14px;
+    padding-bottom: 12px;text-transform: uppercase;display: flex;justify-content: center;
+    
+}
+main{
+     background-color: rgb(242, 233, 224);
+}
+.accueil{
+    background-color: black;height: 80vh;
+    background-image: linear-gradient(to bottom, rgba(242, 233, 224, 0.8)20% , rgba(0,0,0,0.2)60%, rgba(242, 233, 224, 0.5))
+    ,url(img/facade2.png);
+    background-size: cover;
+}
+.article{
+    font-size: 2.9rem;text-align: center;
+}
+.deco{
+    display: flex;position: relative;
+    margin-top: 50px;margin-bottom: 80px;
+}
+
+.ligne-deco1{
+    height: 0.5px;width: 490px;
+    background-color: #BFA06E;
+    position: absolute;left: 67px;
+}
+.ligne-deco2{
+    height: 0.5px;width: 490px;
+    background-color: #BFA06E;
+    position: absolute;right: 85px;
+}
+.deco2{
+    display: flex;position: relative;
+    margin-top: 50px;
+}
+.ligne-deco3{
+    height: 0.5px;width: 490px;
+    background-color: #BFA06E;
+    position: absolute;left: 67px;
+}
+.ligne-deco4{
+    height: 0.5px;width: 490px;
+    background-color: #BFA06E;
+    position: absolute;right: 85px;
+}
+.produits{
+    font-size: 1.8rem;font-style: oblique;
+    margin-top: 50px;margin-bottom: 50px;
+    position: absolute;top: -65px;left: 563px;
+}
+.price-voile{
+    margin-top: 30px;margin-left: 520px;
+    font-size: 1.9rem;border: 1px solid #BFA06E;
+    width: 180px;text-align: center;border-radius: 16px;
+    background-color: #BFA06E;
+}
+.present-voile{
+    position: relative;
+}
+.descr-voile{
+    position: absolute;left: 400px;
+    top: 50px;font-size: 2rem;
+    width: 800px;line-height: 90px;
+    font-style: italic;color: #573e12;
+}
+.img1{
+    height: 500px;width: 370px;
+}
+
+.first-col{
+    display: flex;justify-content: space-between;
+}
+.sec-col{
+    display: flex;justify-content: space-between;margin-top: 70px;
+}
+.imgdiv2{
+    height: 500px;width: 370px;
+    background-color: rgb(116, 119, 118);
+    text-align: center;position: relative;
+}
+.photo{
+    position: absolute;top:300px;left: 135px;
+}
+#img1{
+    margin-left: 35px;
+    transition: 0.5s ease-in;
+}
+
+#img1:hover{
+    scale: 1.02;
+}
+#img2{
+    
+    transition: 0.5s ease-in;
+}
+#img2:hover{
+    scale: 1.02;
+}
+#img3{
+    margin-right: 35px;
+    transition: 0.5s ease-in;
+}
+#img3:hover{
+    scale: 1.02;
+}
+
+#img4{
+    margin-left: 35px;
+    transition: 0.5s ease-in;
+}
+#img4:hover{
+    scale: 1.02;
+}
+#img5{
+    
+    transition: 0.5s ease-in;
+}
+#img5:hover{
+    scale: 1.02;
+}
+#img6{
+    margin-right: 35px;
+    transition: 0.5s ease-in;
+}
+#img6:hover{
+    scale: 1.02;
+}
+footer{
+    display: flex;
+    color: white;background-color: black;
+    height: 50vh;
+}
+.contact{
+    margin-left: 50px;line-height: 65px;
+    margin-top: 10px;
+}
+.nouscontacter{
+    margin-bottom: 40px;
+}
+.foot-a{
+    text-decoration: none;color: white;
+}
+.slogan{
+    position: relative;
+    margin-left: 350px;margin-top: 10px;
+    font-size: 2.5rem;line-height: 80px;
+}
+.couture{
+    position: absolute;left: 30px;
+    letter-spacing: 4px;
+
+}
+.elegance{
+    position: absolute;top: 80px;left: 00px;
+    letter-spacing: 8px;
+}
+.passion{
+    position: absolute;top: 160px;left: 30px;
+    letter-spacing: 4px;
+}
+.header-foot.scrollnav{
+    background-color: rgba(242, 233, 224,0.3);
+}
+.img{
+    height: fit-content;width: fit-content;
+    margin-left: 37px;position: relative;
+}
+.voile{
+    height: 400px;
+}
+.fleche{
+    width: 55px;position: absolute;top: 200px;
+    left: 220px;
+}
+
+@media all and  (width>319px) and (width<=374px)/*petit*/
+{
+    header{
+        width: 100%;
+    }
+    .header-top
+    {
+        display: none;
+    }
+    .header-foot{
+    position: relative;
+}
+    .navl{
+        display: none;
+    }
+    .reser-head{
+        display: none;
+    }
+    .accueil{
+    background-image: linear-gradient(to bottom, rgba(242, 233, 224, 0.8)20% , rgba(0,0,0,0.2)60%, rgba(242, 233, 224, 0.5))
+    ,url(img/facade-mobile2);background-size: 100% 100%;background-repeat: no-repeat;
+    }
+    .first-col{
+        display: flex;flex-direction: column;width: 100%;
+    }
+    .sec-col{
+        display: flex;flex-direction: column;margin-top: 30px;
+    }
+    #img1{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img2{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img3{
+        margin-left: 10px;margin-right: 10px;
+    }
+     #img4{
+        margin-left: 10px;margin-right: 10px;
+    }
+     #img5{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+     #img6{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+    .img1{
+        width: 100%;
+    }
+    .imgdiv2{
+        width: 93.77%;margin-right: 10px;
+    }
+    .deco{
+        margin-top: 20px;margin-bottom: 40px;
+    }
+    .produits{
+    font-size: 1.5rem;margin-top: 0px;margin-bottom: 0px;
+    position: initial;margin-left: 5px;
+    }
+    .ligne-deco1{
+       display: none;
+    }
+    .ligne-deco2{
+      display: none;
+    }
+     .ligne-deco3{
+       display: none;
+    }
+    .ligne-deco4{
+       display: none;
+    }
+   .img{
+    margin-left: 0;
+   }
+    .voile{
+        height: 370px;
+    }
+    
+    .price-voile{
+    margin-top: 20px;margin-left: 0px;
+    font-size: 1.5rem;margin-bottom: 10px;
+    width: 150px;
+   
+}
+    .descr-voile{
+   display: none;
+    
+}
+.fleche{
+    width: 55px;
+    left: 200px;top: 150px;
+}
+footer{
+    display: none;
+   
+}
+
+}
+@media all and (width>=375px) and (width<413px)/*standard*/
+{
+    header{
+        width: 100%;
+    }
+    .header-top
+    {
+        display: none;
+    }
+     .header-foot{
+    position: relative;
+}
+    .navl{
+        display: none;
+    }
+    .reser-head{
+        display: none;
+    }
+    .accueil{
+    background-image: linear-gradient(to bottom, rgba(242, 233, 224, 0.8)20% , rgba(0,0,0,0.2)60%, rgba(242, 233, 224, 0.5))
+    ,url(img/facade-mobile2);background-size: 100% 100%;background-repeat: no-repeat;
+    }
+    .first-col{
+        display: flex;flex-direction: column;width: 100%;
+    }
+    .sec-col{
+        display: flex;flex-direction: column;margin-top: 30px;
+    }
+    #img1{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img2{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img3{
+        margin-left: 10px;margin-right: 10px;
+    }
+     #img4{
+        margin-left: 10px;margin-right: 10px;
+    }
+     #img5{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+     #img6{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+    .img1{
+        width: 100%;
+    }
+    .imgdiv2{
+        width: 93.77%;margin-right: 10px;
+    }
+   .deco{
+        margin-top: 20px;margin-bottom: 40px;
+    }
+    .produits{
+    font-size: 1.5rem;margin-top: 0;margin-bottom: 0;
+    position: initial;margin-left: 5px;
+    }
+    .ligne-deco1{
+       display: none;
+    }
+    .ligne-deco2{
+      display: none;
+    }
+     .ligne-deco3{
+       display: none;
+    }
+    .ligne-deco4{
+       display: none;
+    }
+    .img{
+    margin-left: 0;
+   }
+    .voile{
+        height: 370px;
+    }
+    
+    .price-voile{
+    margin-top: 20px;margin-left: 0px;
+    font-size: 1.5rem;margin-bottom: 10px;
+    width: 150px;
+   
+}
+    .descr-voile{
+   display: none;
+    
+}
+.fleche{
+    width: 55px;
+    left: 200px;top: 150px;
+}
+footer{
+    display: none;
+   
+}
+
+} 
+
+@media all and  (width>=413px) and (width<480px)/*gros tel*/
+{
+    header{
+        width: 100%;
+    }
+    .header-top
+    {
+        display: none;
+    }
+    .header-foot{
+    position: relative;
+}
+    .navl{
+        display: none;
+    }
+    .reser-head{
+        display: none;
+    }
+    .accueil{
+    background-image: linear-gradient(to bottom, rgba(242, 233, 224, 0.8)20% , rgba(0,0,0,0.2)60%, rgba(242, 233, 224, 0.5))
+    ,url(img/facade-mobile2);background-size: 100% 100%;background-repeat: no-repeat;
+    }
+    .first-col{
+        display: flex;flex-direction: column;width: 100%;
+    }
+    .sec-col{
+        display: flex;flex-direction: column;margin-top: 30px;
+        
+    }
+    #img1{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img2{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img3{
+        margin-left: 10px;margin-right: 10px;
+    }
+     #img4{
+        margin-left: 10px;
+    }
+     #img5{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+     #img6{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+    .img1{
+        width: 100%;
+    }
+    .imgdiv2{
+        width: 95.77%;margin-right: 10px;
+    }
+    .deco{
+        margin-top: 20px;margin-bottom: 40px;
+    }
+    .produits{
+    font-size: 1.5rem;margin-top: 0px;margin-bottom: 0px;
+    position: initial;margin-left: 5px;
+    }
+    .ligne-deco1{
+       display: none;
+    }
+    .ligne-deco2{
+      display: none;
+    }
+     .ligne-deco3{
+       display: none;
+    }
+    .ligne-deco4{
+       display: none;
+    }
+   .img{
+    margin-left: 0;
+   }
+    .voile{
+        height: 370px;
+    }
+    
+    .price-voile{
+    margin-top: 20px;margin-left: 0px;
+    font-size: 1.5rem;margin-bottom: 10px;
+    width: 150px;
+   
+}
+    .descr-voile{
+   display: none;
+    
+}
+.fleche{
+    width: 55px;
+    left: 200px;top: 150px;
+}
+footer{
+    display: none;
+   
+}
+
+}
+
+
+
+@media all and  (width>=480px) and (width<1024px)/*ptite tablette*/
+{
+    header{
+        width: 100%;
+    }
+    .header-top
+    {
+        display: none;
+    }
+    .header-foot{
+    position: relative;
+}
+    .navl{
+        display: none;
+    }
+    .scrollnav{
+        display: none;
+    }
+    .reser-head{
+        display: none;
+    }
+    .accueil{
+    background-image: linear-gradient(to bottom, rgba(242, 233, 224, 0.8)20% , rgba(0,0,0,0.2)60%, rgba(242, 233, 224, 0.5))
+    ,url(img/facade-mobile2);background-size: 100% 100%;background-repeat: no-repeat;
+    }
+    .first-col{
+        display: flex;flex-direction: column;width: 100%;
+    }
+    .sec-col{
+        display: flex;flex-direction: column;margin-top: 30px;
+        
+    }
+    #img1{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img2{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img3{
+        margin-left: 10px;margin-right: 10px;
+    }
+     #img4{
+        margin-left: 10px;
+    }
+     #img5{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+     #img6{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+    .img1{
+        width: 100%;height: 800px;
+    }
+    .imgdiv2{
+        width: 95.77%;margin-right: 10px;
+    }
+    .deco{
+        margin-top: 20px;margin-bottom: 40px;
+    }
+    .produits{
+    font-size: 1.5rem;margin-top: 0px;margin-bottom: 0px;
+    position: initial;margin-left: 5px;
+    }
+    .ligne-deco1{
+       display: none;
+    }
+    .ligne-deco2{
+      display: none;
+    }
+     .ligne-deco3{
+       display: none;
+    }
+    .ligne-deco4{
+       display: none;
+    }
+    .img{
+    margin-left: 0;
+   }
+    .voile{
+        height: 370px;
+    }
+    
+    .price-voile{
+    margin-top: 20px;margin-left: 0px;
+    font-size: 1.5rem;margin-bottom: 10px;
+    width: 150px;
+   
+}
+    .descr-voile{
+   display: none;
+    
+}
+.fleche{
+    width: 55px;
+    left: 200px;top: 150px;
+}
+footer{
+    display: none;
+   
+}
+
+}
